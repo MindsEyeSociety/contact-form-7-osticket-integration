@@ -19,7 +19,6 @@ define( 'CF7_OSTICKET__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'CF7_OSTICKET__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once( CF7_OSTICKET__PLUGIN_DIR . 'cf7_osticket_settings.php' );
-require_once( CF7_OSTICKET__PLUGIN_DIR . 'class.api.php' );
 
 if ( is_admin() ) {
   require_once( CF7_OSTICKET__PLUGIN_DIR . 'cf7_osticket_admin.php' );
